@@ -8,7 +8,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@Test",
+		tags = "@ShippingTest",
 		features = ("classpath:features"),
 		glue = "tek.bdd.project",
 		dryRun =false, // after done with dry run set the value to false

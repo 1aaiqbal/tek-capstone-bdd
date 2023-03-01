@@ -22,14 +22,14 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath="//a[text()='TEKSCHOOL']")
 	public WebElement tekSchoolLogo;
 	
-	@FindBy(id ="search")
-	public WebElement allDepartmentDropDown;
+	@FindBy(id = "search")
+	public WebElement allDepartments;
+
+	@FindBy(id = "searchInput")
+	public WebElement searchInputField;
 	
-	@FindBy(css = "#searchInput")
-	public WebElement searchBar;
-	
-	@FindBy(xpath = "//button[@id='searchBtn']")
-	public WebElement searchButton; 
+	@FindBy(id = "searchBtn")
+	public WebElement searchButton;
 	
 	@FindBy(xpath ="//img[contains(@alt, 'Pokemon')]")
 	public WebElement pokemanProductImage;
@@ -79,7 +79,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath ="//p[contains(text(),'Kasa Outdoor Smart Plug')]")
 	public WebElement kasaOutdoorLPicture;
 	
-	@FindBy(xpath = "//option[contains(text(),'2')]")
+	@FindBy(xpath = "//select[@class='product__select']")
 	public WebElement qtyDropDown;
 	
 	@FindBy(xpath = "//span[contains(text(),'Add to Cart')]")
@@ -88,7 +88,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath = "//*[text()='Cart ']")
 	public WebElement cartOption;
 	
-	@FindBy(xpath = "//*[text()='Proceed to Checkout']")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/button[1]")
 	public WebElement proceedToCheckoutButton;
 	
 	@FindBy(xpath = "//button[@id='addAddressBtn']")
@@ -119,11 +119,11 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath = "//input[@id='zipCodeInput']")
 	public WebElement zipCodeInput;
 	
-	@FindBy(id = "//button[@id='addressBtn']")
+	@FindBy(css = "#addressBtn")
 	public WebElement addYourAddressButton;
 	
 	
-	@FindBy(xpath = "//button[@id='addPaymentBtn']")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/button[1]")
 	public WebElement AddCreditOrDebitCardForPaymentMethod;
 	
 	@FindBy(id = "cardNumberInput")

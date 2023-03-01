@@ -35,7 +35,7 @@ public class HomeSteps extends CommonUtility {
 	
 	@When("User search for {string} product")
 	public void userSearchForProduct(String productValue) {
-		sendText(factory.homePage().searchBar, productValue);
+		sendText(factory.homePage().searchInputField, productValue);
 		click(factory.homePage().searchButton);
 		logger.info("user searched for product "+ productValue );
 		
@@ -119,14 +119,15 @@ public class HomeSteps extends CommonUtility {
 	}
 	
 
-@Given("User change the category to {string}")
-public void userChangeTheCategoryTo(String string) {
-	click(factory.homePage().smartHomeCategory);
-	logger.info("user search for second product " + string);
-}
+	@When("User change the category to {string}")
+	public void userChangeTheCategoryTo(String value) {
+		selectByVisibleText(factory.homePage().allDepartments, value);
+		logger.info(value + " was selected from the drop down");
+
+	}
 @Given("User search for an item {string}")
 public void userSearchForAnItem(String smartHomeProduct) {
-		sendText(factory.homePage().searchBar, smartHomeProduct);
+		sendText(factory.homePage().searchInputField, smartHomeProduct);
 		click(factory.homePage().searchButton);
 		logger.info("user search for kasa outdoor plug " + smartHomeProduct);
 
@@ -245,7 +246,7 @@ public void changeTheCategoryTo(String electronics) {
 }
 @Given("User Search for an item {string}")
 public void searchForAnItem(String apexLegends) {
-	sendText(factory.homePage().searchBar, apexLegends);
+	sendText(factory.homePage().searchInputField, apexLegends);
 	logger.info("User searched " + apexLegends);
 
 }
@@ -263,7 +264,7 @@ public void clickOnItem() {
 }
 @Given("User Select quantity {string}")
 public void selectQuantity(String productQyt) {
-	selectByValue(factory.homePage().qtyDropDown, "5");
+	selectByVisibleText(factory.homePage().qtyDropDown, "5");
 	logger.info("User selected "+ productQyt);
 
 }
