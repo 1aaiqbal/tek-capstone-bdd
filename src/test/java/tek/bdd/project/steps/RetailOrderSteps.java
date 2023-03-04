@@ -29,7 +29,7 @@ public void userClickOnCancelTheOrderButton() {
 }
 @Given("User select the cancelation Reason {string}")
 public void userSelectTheCancelationReason(String cancelReason) {
-	selectByValue(factory.orderPage().cancelationReason, cancelReason);
+	selectByVisibleText(factory.orderPage().cancelationReason, cancelReason);
 	logger.info("User slected the candelation reason");
 }
 @Given("User click on Cancel Order button")
@@ -53,13 +53,13 @@ public void userClickOnReturnItemsButton() {
 }
 @Given("User select the ReturnReason {string}")
 public void userSelectTheReturnReason(String reason) {
-	selectByValue(factory.orderPage().returnReason, reason);
+	selectByVisibleText(factory.orderPage().returnReason, reason);
 	logger.info("User selected the ReturnReason");
 
 }
 @Given("User select the drop off service {string}")
 public void userSelectTheDropOffService(String placeDropOff) {
-	selectByValue(factory.orderPage().dropOfService, placeDropOff);
+	selectByVisibleText(factory.orderPage().dropOfService, placeDropOff);
 	logger.info("User selected the drop off service");
 
 }

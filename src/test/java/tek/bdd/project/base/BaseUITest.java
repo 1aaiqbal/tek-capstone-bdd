@@ -19,8 +19,8 @@ public class BaseUITest extends CommonUtility{
 		if (scenario.isFailed()) {
 			byte[] screenshot = takeScreenShotAsBytes();
 			scenario.attach(screenshot, "image/png", scenario.getName() + " scenario Failed");
-		}
-
-		super.quitBrowser();
+	}
+//
+//		super.quitBrowser();
 	}
 }

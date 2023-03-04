@@ -1,6 +1,11 @@
+@order @signIn  @CreateAccount @account @smokeTest @smokeTested
 Feature: This feature is use for testing UI of Retail page
 
   Background: 
+    Given User is on retail website
+    When User click on Sign in option
+    And User enter email 'aaiqbal@tek.us' and password 'Deena@2018'
+    And User click on login button
     And User click on Orders section
     And User click on first order in list
 

@@ -24,16 +24,18 @@ public class SignInSteps extends CommonUtility {
 	
 	}
 	@When("User enter email {string} and password {string}")
-	public void userEnterEmailAndPassword(String emailValue, String passwordValue) {
+	public void userEnterEmailAndPassword(String emailValue, String passwordValue) throws InterruptedException {
 	sendText(factory.signInPage().emailField, emailValue);
 	sendText(factory.signInPage().passwordField, passwordValue);
 	logger.info("user entered email " + emailValue+ " and password " + passwordValue);
+	Thread.sleep(4000);
 
 	}
 	@When("User click on login button")
-	public void userClickOnLoginButton() {
+	public void userClickOnLoginButton() throws InterruptedException {
 	click(factory.signInPage().loginPageButton);
 	logger.info("user clicked on login button");
+	Thread.sleep(3000);
 
 	}
 	@Then("User should be logged in into Account")
@@ -51,10 +53,14 @@ public class SignInSteps extends CommonUtility {
 	@When("User fill the signUp information with below data")
 	public void userFillTheSignUpInformationWithBelowData(DataTable dataTable) {
 	List<Map<String, String>> signUpInformation = dataTable.asMaps(String.class, String.class);
-	sendText(factory.signInPage().signUpNameField,DataGeneratorUtility.data(signUpInformation.get(0).get("name")));
-	sendText(factory.signInPage().signUpEmailField,DataGeneratorUtility.data(signUpInformation.get(0).get("email")));
-	sendText(factory.signInPage().signUpPasswordField, signUpInformation.get(0).get("password"));
-	sendText(factory.signInPage().signUpConfirmPassField,signUpInformation.get(0).get("confirmPassword"));
+	clearTextUsingSendKeys(factory.signInPage().signUpNameField);
+	clearTextUsingSendKeys(factory.signInPage().signUpEmailField);
+	clearTextUsingSendKeys(factory.signInPage().signUpPasswordField);
+	clearTextUsingSendKeys(factory.signInPage().signUpConfirmPassField);
+	sendText(factory.signInPage().signUpNameField, DataGeneratorUtility.data("firstName"));
+	sendText(factory.signInPage().signUpEmailField,DataGeneratorUtility.data("email"));
+	sendText(factory.signInPage().signUpPasswordField, DataGeneratorUtility.data("newPassword"));
+	sendText(factory.signInPage().signUpConfirmPassField,DataGeneratorUtility.data("confirmPassword"));
 	logger.info("user filled the signUp information form");
 	}
 	@When("User click on SignUp button")

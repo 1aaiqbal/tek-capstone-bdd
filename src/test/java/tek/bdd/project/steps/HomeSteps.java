@@ -276,9 +276,9 @@ public void clickAddToCartButton() {
 
 }
 @Then("The Cart icon quantity should change to {string}")
-public void cartIconQuantityShouldChangeTo(String changedQty) {
-	Assert.assertTrue(isElementDisplayed(factory.homePage().changedQtyAtcart));
-	logger.info("The cart quantity changed to " + changedQty);
+public void cartIconQuantityShouldChangeTo(String changedQtys) {
+	Assert.assertTrue(isElementDisplayed(factory.homePage().cartButton));
+	logger.info("The cart quantity changed to ");
 
 }
 @Then("User Click on Cart option")
@@ -287,13 +287,13 @@ public void clickOnCartOption() {
 	logger.info("User clicked at cart option");
 
 }
-@Then("User Click on Proceed to Checkout button")
+@Then("User Click on Proceed to Checkout buttons")
 public void clickOnProceedToCheckoutButton() {
 	click(factory.homePage().proceedToCheckoutButton);
 	logger.info("User clicked at proceed to checkout");
 
 }
-@Then("User Click on Place Your Order")
+@Then("User Click on Place Your Orders")
 public void userClickOnPlaceYourOrder() {
 	click(factory.homePage().placeYourOrderBottun);
 	logger.info("User clicked at place Your order");

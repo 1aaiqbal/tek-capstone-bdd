@@ -70,11 +70,11 @@ public class BaseSetup {
         webDriver.manage().timeouts().implicitlyWait(Duration.of(20, ChronoUnit.SECONDS));
         webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 
-	}
+//	}
 	
-	public void quitBrowser() {
-		if(webDriver!=null)
-			webDriver.quit();
+//	public void quitBrowser() {
+//		if(webDriver!=null)
+//			webDriver.quit();
     }
 
 }

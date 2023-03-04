@@ -88,7 +88,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath = "//*[text()='Cart ']")
 	public WebElement cartOption;
 	
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/button[1]")
+	@FindBy(xpath = "//button[@id='proceedBtn']")
 	public WebElement proceedToCheckoutButton;
 	
 	@FindBy(xpath = "//button[@id='addAddressBtn']")
@@ -104,7 +104,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(id = "phoneNumberInput")
 	public WebElement phoneNumberInput;
 	
-	@FindBy(id = "streetInput")
+	@FindBy(xpath = "//input[@id='streetInput']")
 	public WebElement streetAddressInput;
 	
 	@FindBy(id = "apartmentInput")
@@ -123,7 +123,7 @@ public class RetailHomePage extends BaseSetup{
 	public WebElement addYourAddressButton;
 	
 	
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/button[1]")
+	@FindBy(xpath = "//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/button[1]/img[1]")
 	public WebElement AddCreditOrDebitCardForPaymentMethod;
 	
 	@FindBy(id = "cardNumberInput")
@@ -144,7 +144,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(id = "paymentSubmitBtn")
 	public WebElement addYourCardButton;
 	
-	@FindBy(xpath = "//button[@id='placeOrderBtn']")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/button[1]")
 	public WebElement placeYourOrderBottun;
 	
 	@FindBy(xpath = "//div[contains(text(),'Order Placed Successfully')]")
@@ -157,7 +157,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath = "//*[text() = 'Apex Legends - 1,000 Apex Coins']")
 	public WebElement apexLegendsItem;
 	
-	@FindBy(xpath = "//*[text() = '5']")
+	@FindBy(xpath = "//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/select[1]")
 	public WebElement changedQtyAtcart;
 	
 

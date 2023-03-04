@@ -3,6 +3,7 @@ package tek.bdd.project.steps;
 
 
 import java.util.List;
+
 import java.util.Map;
 
 import org.junit.Assert;
@@ -26,14 +27,15 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info("User clicked on Account Option");
 
 	}
-	@When("User update Name {string} Phone {string} and email {string}")
-	public void userUpdateNamePhoneAndEmail(String nameValue, String phoneValue, String emailValue) {
+	@When("User update Name {string} and PhoneNumber {string}")
+	public void userUpdateNameAndPhoneNumber(String nameValue, String PhoneValue) throws InterruptedException {
 		clearTextUsingSendKeys(factory.accountPage().profileNameInputField);
 		clearTextUsingSendKeys(factory.accountPage().profilePhoneNumberInputField);
-		clearTextUsingSendKeys(factory.accountPage().profileEmailInputField);
 		sendText(factory.accountPage().profileNameInputField, nameValue);
-		sendText(factory.accountPage().profilePhoneNumberInputField, phoneValue);
-		sendText(factory.accountPage().profileEmailInputField, emailValue);
+		sendText(factory.accountPage().profilePhoneNumberInputField, PhoneValue);
+		logger.info("user updated name and phone");
+		Thread.sleep(4000);
+	
 
 	}
 	@When("User click on Update button")
@@ -51,13 +53,13 @@ public class RetailAccountSteps extends CommonUtility{
 	
 	@And("User enter below information")
 	public void userEnterBelowInformation(DataTable dataTable) {
-		List<Map<String, String>> updatePasswordInfo = dataTable.asMaps(String.class, String.class);
+		List<List<String>> updatePasswordInfo = dataTable.asLists(String.class);
 		clearTextUsingSendKeys(factory.accountPage().profilePreviousPassword);
 		clearTextUsingSendKeys(factory.accountPage().profileNewPassword);
 		clearTextUsingSendKeys(factory.accountPage().profileConfirmPassword);
-		sendText(factory.accountPage().profilePreviousPassword, updatePasswordInfo.get(0).get("previousPassword"));
-		sendText(factory.accountPage().profileNewPassword, updatePasswordInfo.get(0).get("newPassword"));
-		sendText(factory.accountPage().profileConfirmPassword, updatePasswordInfo.get(0).get("confirmPassword"));
+		sendText(factory.accountPage().profilePreviousPassword, updatePasswordInfo.get(0).get(0));
+		sendText(factory.accountPage().profileNewPassword, updatePasswordInfo.get(0).get(1));
+		sendText(factory.accountPage().profileConfirmPassword, updatePasswordInfo.get(0).get(2));
 		logger.info("User enter PrePassword NewPassword and confirmPassword ");
 	}
 	@And("User click on Change password button")
@@ -67,9 +69,10 @@ public class RetailAccountSteps extends CommonUtility{
 	}
 	
 	@Then("a massage should be displayed {string}")
-	public void userPasswordShouldBeUpdated(String massage) {
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().newPasswordUpdateSuccessfrully));
-		logger.info("a massage should be displayed ");
+	public void userPasswordShouldBeUpdated(String expectedMessage) {
+		waitTillPresence(factory.accountPage().newPasswordUpdateSuccessfrully);
+		Assert.assertEquals(expectedMessage, factory.accountPage().newPasswordUpdateSuccessfrully.getText());
+		logger.info(expectedMessage + " is displayed");
 	}
 	
 	
@@ -81,18 +84,18 @@ public class RetailAccountSteps extends CommonUtility{
 	}
 	@When("User fill Debit or credit card information")
 	public void userFillDebitOrCreditCardInformation(DataTable dataTable) {
-		List<Map<String, String>> addPaymentMethod = dataTable.asMaps(String.class, String.class);
+		List<List<String>> addPaymentMethod = dataTable.asLists(String.class);
 		
 		clearTextUsingSendKeys(factory.accountPage().cardNumber);
 		clearTextUsingSendKeys(factory.accountPage().nameOnCard);
 		clearTextUsingSendKeys(factory.accountPage().expirationMonth);
 		clearTextUsingSendKeys(factory.accountPage().expitationYear);
 		clearTextUsingSendKeys(factory.accountPage().securityCode);
-		sendText(factory.accountPage().cardNumber, addPaymentMethod.get(0).get("cardNumber"));
-		sendText(factory.accountPage().nameOnCard, addPaymentMethod.get(0).get("nameOnCard"));
-		sendText(factory.accountPage().expirationMonth, addPaymentMethod.get(0).get("expirationMonth"));
-		sendText(factory.accountPage().expitationYear, addPaymentMethod.get(0).get("expirationYear"));
-		sendText(factory.accountPage().securityCode, addPaymentMethod.get(0).get("securityCode"));
+		sendText(factory.accountPage().cardNumber, DataGeneratorUtility.data(addPaymentMethod.get(0).get(0)));
+		sendText(factory.accountPage().nameOnCard, DataGeneratorUtility.data(addPaymentMethod.get(0).get(1)));
+		sendText(factory.accountPage().expirationMonth, DataGeneratorUtility.data(addPaymentMethod.get(0).get(2)));
+		sendText(factory.accountPage().expitationYear, DataGeneratorUtility.data(addPaymentMethod.get(0).get(3)));
+		sendText(factory.accountPage().securityCode, DataGeneratorUtility.data(addPaymentMethod.get(0).get(4)));
 		logger.info("User filled card information field");
 	}
 	@When("User click on Add your card button")
@@ -119,18 +122,18 @@ public class RetailAccountSteps extends CommonUtility{
 	}
 	@When("User edit information with below data")
 	public void useEditInformationWithBelowData(DataTable dataTable) {
-		List<Map<String, String>> editPaymentMethod = dataTable.asMaps(String.class, String.class);
+		List<List<String>> editPaymentMethod = dataTable.asLists(String.class);
 		
 		clearTextUsingSendKeys(factory.accountPage().cardNumber);
 		clearTextUsingSendKeys(factory.accountPage().nameOnCard);
 		clearTextUsingSendKeys(factory.accountPage().expirationMonth);
 		clearTextUsingSendKeys(factory.accountPage().expitationYear);
 		clearTextUsingSendKeys(factory.accountPage().securityCode);
-		sendText(factory.accountPage().cardNumber, editPaymentMethod.get(0).get("cardNumber"));
-		sendText(factory.accountPage().nameOnCard, editPaymentMethod.get(0).get("nameOnCard"));
-		sendText(factory.accountPage().expirationMonth, editPaymentMethod.get(0).get("expirationMonth"));
-		sendText(factory.accountPage().expitationYear, editPaymentMethod.get(0).get("expirationYear"));
-		sendText(factory.accountPage().securityCode, editPaymentMethod.get(0).get("securityCode"));
+		sendText(factory.accountPage().cardNumber,DataGeneratorUtility.data(editPaymentMethod.get(0).get(0)));
+		sendText(factory.accountPage().nameOnCard,DataGeneratorUtility.data(editPaymentMethod.get(0).get(1)));
+		sendText(factory.accountPage().expirationMonth,DataGeneratorUtility.data(editPaymentMethod.get(0).get(2)));
+		sendText(factory.accountPage().expitationYear,DataGeneratorUtility.data(editPaymentMethod.get(0).get(3)));
+		sendText(factory.accountPage().securityCode,DataGeneratorUtility.data(editPaymentMethod.get(0).get(4)));
 		logger.info("User Edited all payment Method fields");
 	}
 	@When("User click on Update Your Card button")

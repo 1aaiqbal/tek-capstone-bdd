@@ -1,4 +1,4 @@
-@Test
+ @CreateAccount @account @order @signIn @smokeTest @smokeTested
 Feature: This feature is use for testing UI of Retail page
 
   Scenario: Verify user can search a product
@@ -28,11 +28,11 @@ Feature: This feature is use for testing UI of Retail page
       | Smart Home  | Smart Home Lightning           | Plugs and Outlets        |
       | Sports      | Athletic Clothing              | Exercise & Fitness       |
       | Automative  | Automative Parts & Accessories | MotorCycle & Powersports |
-@ShippingTest
+@smokeTest
   Scenario: Verify User can place an order without Shipping address and payment Method on file
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'ahad.iqbal@tek.com' and password 'Tek@12345'
+    And User enter email 'aaiqbal@tek.us' and password 'Deena@2018'
     And User click on login button
     Then User should be logged in into Account
     And User change the category to 'Smart Home'
@@ -45,7 +45,7 @@ Feature: This feature is use for testing UI of Retail page
     And User click on Proceed to Checkout button
     And User click Add a new address link for shipping address
     And User fill a new address form with below information
-      | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
+      | country | firstName | phoneNumber | streetAddress | apt | city | state | zipCode |
     And User click Add Your Address button
     And User click Add a credit card or Debit Card for Payment method
     And User fill a Debit or credit card information
@@ -53,8 +53,13 @@ Feature: This feature is use for testing UI of Retail page
     And User click on Add your card option
     And User click on Place Your Order
     Then message displayed 'Order Placed, Thanks'
-
-  Scenario: Verify User can place on order with Shipping address and payment Method on file
+@smokeTested
+  Scenario Outline: Verify User can place on order with Shipping address and payment Method on file
+    Given User is on retail website
+    When User click on Sign in option
+    And User enter email 'aaiqbal@tek.us' and password 'Deena@2018'
+    And User click on login button
+    Then User should be logged in into Account
     And User Change the category to 'Electronics'
     And User Search for an item 'Apex Legends'
     And User Click on Search icon
@@ -63,6 +68,6 @@ Feature: This feature is use for testing UI of Retail page
     And User Click add to Cart button
     Then The Cart icon quantity should change to '5'
     And User Click on Cart option
-    And User Click on Proceed to Checkout button
-    And User Click on Place Your Order
+    And User Click on Proceed to Checkout buttons
+    And User Click on Place Your Orders
     Then a Message should be displayed 'Order Placed, Thanks'
