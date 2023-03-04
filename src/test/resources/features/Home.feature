@@ -1,4 +1,4 @@
- @CreateAccount @account @order @signIn @smokeTest @smokeTested
+ @Home @account @Order @signIn 
 Feature: This feature is use for testing UI of Retail page
 
   Scenario: Verify user can search a product
@@ -55,11 +55,11 @@ Feature: This feature is use for testing UI of Retail page
     Then message displayed 'Order Placed, Thanks'
 @smokeTested
   Scenario Outline: Verify User can place on order with Shipping address and payment Method on file
-    Given User is on retail website
-    When User click on Sign in option
-    And User enter email 'aaiqbal@tek.us' and password 'Deena@2018'
-    And User click on login button
-    Then User should be logged in into Account
+  #  Given User is on retail website
+  #  When User click on Sign in option
+  #  And User enter email 'aaiqbal@tek.us' and password 'Deena@2018'
+  #  And User click on login button
+  #  Then User should be logged in into Account
     And User Change the category to 'Electronics'
     And User Search for an item 'Apex Legends'
     And User Click on Search icon

@@ -7824,3 +7824,241 @@
 2023-03-04 00:20:49,817 [main] INFO logger_File - user filled the signUp information form
 2023-03-04 00:20:49,865 [main] INFO logger_File - user clicked on SignUpForm button
 2023-03-04 00:20:49,865 [main] INFO logger_File - user is login into account page
+2023-03-04 07:34:42,062 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:42,064 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:42,178 [main] INFO logger_File - user searched for product pokemon
+2023-03-04 07:34:42,317 [main] INFO logger_File - Pokeman picture is displayed on home page
+2023-03-04 07:34:42,334 [main] INFO logger_File - The SignIn button is present 
+2023-03-04 07:34:42,351 [main] INFO logger_File - The cart button is present
+2023-03-04 07:34:44,394 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:44,394 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:44,459 [main] INFO logger_File - User click on All section
+2023-03-04 07:34:44,534 [main] INFO logger_File - actual is equal to expected
+2023-03-04 07:34:46,232 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:46,233 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:46,292 [main] INFO logger_File - User click on All section
+2023-03-04 07:34:46,378 [main] INFO logger_File - TV & Video is present 
+2023-03-04 07:34:46,414 [main] INFO logger_File - Video Games is present 
+2023-03-04 07:34:48,153 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:48,155 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:48,216 [main] INFO logger_File - User click on All section
+2023-03-04 07:34:48,299 [main] INFO logger_File - Accessories is present 
+2023-03-04 07:34:48,332 [main] INFO logger_File - Networking is present 
+2023-03-04 07:34:50,031 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:50,031 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:50,086 [main] INFO logger_File - User click on All section
+2023-03-04 07:34:50,179 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-04 07:34:50,213 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-04 07:34:51,897 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:51,897 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:51,949 [main] INFO logger_File - User click on All section
+2023-03-04 07:34:52,109 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-04 07:34:52,135 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-04 07:34:53,758 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:53,759 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:53,822 [main] INFO logger_File - User click on All section
+2023-03-04 07:34:53,932 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-04 07:34:53,967 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-04 07:34:55,694 [main] INFO logger_File - user is on retail website
+2023-03-04 07:34:55,694 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:34:55,759 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-04 07:34:55,888 [main] INFO logger_File - user entered email aaiqbal@tek.us and password Deena@2018
+2023-03-04 07:34:59,940 [main] INFO logger_File - user clicked on login button
+2023-03-04 07:36:02,481 [main] INFO logger_File - user is on retail website
+2023-03-04 07:36:02,482 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:36:02,547 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-04 07:36:02,678 [main] INFO logger_File - user entered email aaiqbal@tek.us and password Deena@2018
+2023-03-04 07:36:06,732 [main] INFO logger_File - user clicked on login button
+2023-03-04 07:36:34,533 [main] INFO logger_File - user is on retail website
+2023-03-04 07:36:34,533 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:36:34,597 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-04 07:36:34,729 [main] INFO logger_File - user entered email aaiqbal@tek.us and password Deena@2018
+2023-03-04 07:36:38,784 [main] INFO logger_File - user clicked on login button
+2023-03-04 07:37:06,584 [main] INFO logger_File - user is on retail website
+2023-03-04 07:37:06,584 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:37:06,652 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-04 07:37:06,785 [main] INFO logger_File - user entered email aaiqbal@tek.us and password Deena@2018
+2023-03-04 07:37:10,835 [main] INFO logger_File - user clicked on login button
+2023-03-04 07:38:31,887 [main] INFO logger_File - user is on retail website
+2023-03-04 07:38:31,889 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:38:32,001 [main] INFO logger_File - user searched for product pokemon
+2023-03-04 07:38:32,134 [main] INFO logger_File - Pokeman picture is displayed on home page
+2023-03-04 07:38:32,151 [main] INFO logger_File - The SignIn button is present 
+2023-03-04 07:38:32,168 [main] INFO logger_File - The cart button is present
+2023-03-04 07:38:33,897 [main] INFO logger_File - user is on retail website
+2023-03-04 07:38:33,897 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:38:33,960 [main] INFO logger_File - User click on All section
+2023-03-04 07:38:34,032 [main] INFO logger_File - actual is equal to expected
+2023-03-04 07:38:35,733 [main] INFO logger_File - user is on retail website
+2023-03-04 07:38:35,733 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:38:35,798 [main] INFO logger_File - User click on All section
+2023-03-04 07:38:35,887 [main] INFO logger_File - TV & Video is present 
+2023-03-04 07:38:35,921 [main] INFO logger_File - Video Games is present 
+2023-03-04 07:38:37,628 [main] INFO logger_File - user is on retail website
+2023-03-04 07:38:37,629 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:38:37,689 [main] INFO logger_File - User click on All section
+2023-03-04 07:38:37,772 [main] INFO logger_File - Accessories is present 
+2023-03-04 07:38:37,803 [main] INFO logger_File - Networking is present 
+2023-03-04 07:38:39,475 [main] INFO logger_File - user is on retail website
+2023-03-04 07:38:39,476 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:38:39,528 [main] INFO logger_File - User click on All section
+2023-03-04 07:38:39,619 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-04 07:38:39,652 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-04 07:38:41,302 [main] INFO logger_File - user is on retail website
+2023-03-04 07:38:41,302 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:38:41,362 [main] INFO logger_File - User click on All section
+2023-03-04 07:38:41,460 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-04 07:38:41,497 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-04 07:38:43,289 [main] INFO logger_File - user is on retail website
+2023-03-04 07:38:43,289 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:38:43,341 [main] INFO logger_File - User click on All section
+2023-03-04 07:38:43,515 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-04 07:38:43,544 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-04 07:38:45,260 [main] INFO logger_File - Smart Home was selected from the drop down
+2023-03-04 07:38:45,387 [main] INFO logger_File - user search for kasa outdoor plug kasa outdoor smart plug
+2023-03-04 07:38:45,570 [main] INFO logger_File - User clicked on kasa outdoor plug
+2023-03-04 07:38:45,738 [main] INFO logger_File - User select quantity 2
+2023-03-04 07:38:45,799 [main] INFO logger_File - User clicked on Add to Cart button
+2023-03-04 07:38:45,811 [main] INFO logger_File - The cart qty changed
+2023-03-04 07:38:45,869 [main] INFO logger_File - User clicked on cart button
+2023-03-04 07:39:57,741 [main] INFO logger_File - User change category to Electronics
+2023-03-04 07:39:57,811 [main] INFO logger_File - User searched Apex Legends
+2023-03-04 07:39:57,852 [main] INFO logger_File - User clicked on search Icon
+2023-03-04 07:39:58,020 [main] INFO logger_File - User clicked on Item
+2023-03-04 07:39:58,186 [main] INFO logger_File - User selected 5
+2023-03-04 07:40:24,698 [main] INFO logger_File - user is on retail website
+2023-03-04 07:40:24,699 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:40:24,767 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-04 07:40:24,901 [main] INFO logger_File - user entered email aaiqbal@tek.us and password Deena@2018
+2023-03-04 07:40:55,530 [main] INFO logger_File - user is on retail website
+2023-03-04 07:40:55,532 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:40:55,658 [main] INFO logger_File - user searched for product pokemon
+2023-03-04 07:40:55,736 [main] INFO logger_File - Pokeman picture is displayed on home page
+2023-03-04 07:40:55,754 [main] INFO logger_File - The SignIn button is present 
+2023-03-04 07:40:55,769 [main] INFO logger_File - The cart button is present
+2023-03-04 07:40:57,402 [main] INFO logger_File - user is on retail website
+2023-03-04 07:40:57,403 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:40:57,457 [main] INFO logger_File - User click on All section
+2023-03-04 07:40:57,532 [main] INFO logger_File - actual is equal to expected
+2023-03-04 07:40:59,158 [main] INFO logger_File - user is on retail website
+2023-03-04 07:40:59,158 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:40:59,216 [main] INFO logger_File - User click on All section
+2023-03-04 07:40:59,304 [main] INFO logger_File - TV & Video is present 
+2023-03-04 07:40:59,345 [main] INFO logger_File - Video Games is present 
+2023-03-04 07:41:00,908 [main] INFO logger_File - user is on retail website
+2023-03-04 07:41:00,908 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:41:00,965 [main] INFO logger_File - User click on All section
+2023-03-04 07:41:01,051 [main] INFO logger_File - Accessories is present 
+2023-03-04 07:41:01,086 [main] INFO logger_File - Networking is present 
+2023-03-04 07:41:02,734 [main] INFO logger_File - user is on retail website
+2023-03-04 07:41:02,735 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:41:02,802 [main] INFO logger_File - User click on All section
+2023-03-04 07:41:02,891 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-04 07:41:02,922 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-04 07:41:04,554 [main] INFO logger_File - user is on retail website
+2023-03-04 07:41:04,554 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:41:04,609 [main] INFO logger_File - User click on All section
+2023-03-04 07:41:04,712 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-04 07:41:04,746 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-04 07:41:06,542 [main] INFO logger_File - user is on retail website
+2023-03-04 07:41:06,542 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 07:41:06,589 [main] INFO logger_File - User click on All section
+2023-03-04 07:41:06,752 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-04 07:41:06,782 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-04 07:41:08,467 [main] INFO logger_File - Smart Home was selected from the drop down
+2023-03-04 07:41:08,585 [main] INFO logger_File - user search for kasa outdoor plug kasa outdoor smart plug
+2023-03-04 07:41:08,689 [main] INFO logger_File - User clicked on kasa outdoor plug
+2023-03-04 07:41:08,914 [main] INFO logger_File - User select quantity 2
+2023-03-04 07:41:08,984 [main] INFO logger_File - User clicked on Add to Cart button
+2023-03-04 07:41:08,998 [main] INFO logger_File - The cart qty changed
+2023-03-04 07:41:09,041 [main] INFO logger_File - User clicked on cart button
+2023-03-04 08:58:22,530 [main] INFO logger_File - user is on retail website
+2023-03-04 08:58:22,535 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:58:22,666 [main] INFO logger_File - user searched for product pokemon
+2023-03-04 08:58:22,743 [main] INFO logger_File - Pokeman picture is displayed on home page
+2023-03-04 08:58:22,762 [main] INFO logger_File - The SignIn button is present 
+2023-03-04 08:58:22,777 [main] INFO logger_File - The cart button is present
+2023-03-04 08:58:24,500 [main] INFO logger_File - user is on retail website
+2023-03-04 08:58:24,500 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:58:24,551 [main] INFO logger_File - User click on All section
+2023-03-04 08:58:24,642 [main] INFO logger_File - actual is equal to expected
+2023-03-04 08:58:26,345 [main] INFO logger_File - user is on retail website
+2023-03-04 08:58:26,346 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:58:26,408 [main] INFO logger_File - User click on All section
+2023-03-04 08:58:26,494 [main] INFO logger_File - TV & Video is present 
+2023-03-04 08:58:26,529 [main] INFO logger_File - Video Games is present 
+2023-03-04 08:58:28,172 [main] INFO logger_File - user is on retail website
+2023-03-04 08:58:28,173 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:58:28,235 [main] INFO logger_File - User click on All section
+2023-03-04 08:58:28,320 [main] INFO logger_File - Accessories is present 
+2023-03-04 08:58:28,358 [main] INFO logger_File - Networking is present 
+2023-03-04 08:58:30,006 [main] INFO logger_File - user is on retail website
+2023-03-04 08:58:30,006 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:58:30,085 [main] INFO logger_File - User click on All section
+2023-03-04 08:58:30,192 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-04 08:58:30,223 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-04 08:58:31,957 [main] INFO logger_File - user is on retail website
+2023-03-04 08:58:31,957 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:58:32,003 [main] INFO logger_File - User click on All section
+2023-03-04 08:58:32,223 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-04 08:58:32,254 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-04 08:58:33,995 [main] INFO logger_File - user is on retail website
+2023-03-04 08:58:33,995 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:58:34,059 [main] INFO logger_File - User click on All section
+2023-03-04 08:58:34,184 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-04 08:58:34,215 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-04 08:58:35,889 [main] INFO logger_File - Smart Home was selected from the drop down
+2023-03-04 08:58:36,034 [main] INFO logger_File - user search for kasa outdoor plug kasa outdoor smart plug
+2023-03-04 08:58:36,148 [main] INFO logger_File - User clicked on kasa outdoor plug
+2023-03-04 08:58:36,311 [main] INFO logger_File - User select quantity 2
+2023-03-04 08:58:36,361 [main] INFO logger_File - User clicked on Add to Cart button
+2023-03-04 08:58:36,374 [main] INFO logger_File - The cart qty changed
+2023-03-04 08:58:36,432 [main] INFO logger_File - User clicked on cart button
+2023-03-04 08:59:38,649 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:38,652 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:38,762 [main] INFO logger_File - user searched for product pokemon
+2023-03-04 08:59:38,895 [main] INFO logger_File - Pokeman picture is displayed on home page
+2023-03-04 08:59:38,911 [main] INFO logger_File - The SignIn button is present 
+2023-03-04 08:59:38,926 [main] INFO logger_File - The cart button is present
+2023-03-04 08:59:40,557 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:40,558 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:40,616 [main] INFO logger_File - User click on All section
+2023-03-04 08:59:40,691 [main] INFO logger_File - actual is equal to expected
+2023-03-04 08:59:42,334 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:42,334 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:42,403 [main] INFO logger_File - User click on All section
+2023-03-04 08:59:42,490 [main] INFO logger_File - TV & Video is present 
+2023-03-04 08:59:42,528 [main] INFO logger_File - Video Games is present 
+2023-03-04 08:59:44,167 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:44,168 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:44,237 [main] INFO logger_File - User click on All section
+2023-03-04 08:59:44,327 [main] INFO logger_File - Accessories is present 
+2023-03-04 08:59:44,362 [main] INFO logger_File - Networking is present 
+2023-03-04 08:59:46,028 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:46,028 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:46,099 [main] INFO logger_File - User click on All section
+2023-03-04 08:59:46,215 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-04 08:59:46,276 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-04 08:59:48,068 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:48,069 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:48,115 [main] INFO logger_File - User click on All section
+2023-03-04 08:59:48,305 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-04 08:59:48,357 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-04 08:59:50,033 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:50,034 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:50,088 [main] INFO logger_File - User click on All section
+2023-03-04 08:59:50,229 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-04 08:59:50,280 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-04 08:59:52,398 [main] INFO logger_File - user is on retail website
+2023-03-04 08:59:52,399 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-04 08:59:52,465 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-04 08:59:52,602 [main] INFO logger_File - user entered email aaiqbal@tek.us and password Deena@2018
+2023-03-04 08:59:56,653 [main] INFO logger_File - user clicked on login button
+2023-03-04 09:00:34,673 [main] INFO logger_File - User change category to Electronics
+2023-03-04 09:00:34,735 [main] INFO logger_File - User searched Apex Legends
+2023-03-04 09:00:34,779 [main] INFO logger_File - User clicked on search Icon
+2023-03-04 09:00:34,899 [main] INFO logger_File - User clicked on Item
+2023-03-04 09:00:35,021 [main] INFO logger_File - User selected 5
+2023-03-04 09:00:35,064 [main] INFO logger_File - User clicked add to cart button
+2023-03-04 09:00:35,078 [main] INFO logger_File - The cart quantity changed to 
+2023-03-04 09:00:35,118 [main] INFO logger_File - User clicked at cart option

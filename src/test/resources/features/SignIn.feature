@@ -1,4 +1,4 @@
-@signIn @account @order @CreateAccount @smokeTest @smokeTested
+@signIn @account @Order @Home
 Feature: TEK Retail Application SignIn feature
 
   Background: 

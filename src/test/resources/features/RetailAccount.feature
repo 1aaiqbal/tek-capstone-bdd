@@ -1,4 +1,4 @@
-@account @order @signIn  @CreateAccount @smokeTest @smokeTested
+@account @Order @signIn  @Home 
 Feature: Retail Application Account Feature
 
   Background: 
@@ -11,16 +11,16 @@ Feature: Retail Application Account Feature
 
 
   Scenario: Verify User can update Profile Information
-    And User update Name 'AbduuAhadDDd' and PhoneNumber '1018025866'
+    And User update Name 'AbduuAhadI' and PhoneNumber '1012035866'
     And User click on Update button
     Then User profile information should be updated
 
- # Scenario: Verify User can update password
-  #  And User enter below information
-    #  | password | newPassword    | confirmPassword |
-   #   | Asyajan@876500  | Asyajan@002244 | Asyajan@002244  |
-  #  And User click on Change password button
-  #  Then a massage should be displayed 'Password Updated Successfully'
+  Scenario: Verify User can update password
+    And User enter below information
+      | password | newPassword    | confirmPassword |
+      | Asyajan@876500  | Asyajan@002244 | Asyajan@002244  |
+    And User click on Change password button
+    Then a massage should be displayed 'Password Updated Successfully'
 
   Scenario: Verify User can add a payment method
     And User click on Add a payment method link

@@ -1,4 +1,4 @@
-@order @signIn  @CreateAccount @account @smokeTest @smokeTested
+@Order @signIn  @Home @account
 Feature: This feature is use for testing UI of Retail page
 
   Background: 

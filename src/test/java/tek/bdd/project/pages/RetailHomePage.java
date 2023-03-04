@@ -40,7 +40,7 @@ public class RetailHomePage extends BaseSetup{
 	@FindBy(xpath = "//p[contains(text(),'Cart')]")
 	public WebElement cartButton;
 	
-	@FindBy(id ="accountLink")
+	@FindBy(id ="//a[contains(text(),'TEKSCHOOL')]")
 	public WebElement accountOption;
 	
 	@FindBy(id = "hamburgerBtn")
